@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://el-utama.github.io/el-utama-links/sitemap.xml
