@@ -1,0 +1,14 @@
+{
+  "name": "el-utama-links",
+  "version": "1.0.0",
+  "description": "eL Utama official music links",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linter configured'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "private": true
+}
