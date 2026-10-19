@@ -239,3 +239,11 @@ fetch("./catalog.json", { cache: "force-cache" })
     scrollHint.hidden = true;
     count.textContent = "";
   });
+
+// Expose for ES module / console debugging
+window.catalog = catalog;
+window.translations = translations;
+window.language = language;
+window.platforms = platforms;
+window.renderCatalog = renderCatalog;
+window.updateLanguage = updateLanguage;
