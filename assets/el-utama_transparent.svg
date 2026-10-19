@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Grid Utama 3x2 (Total Area 170x170px untuk Persegi Sempurna) -->
+  <g transform="translate(35, 35)">
+    <defs>
+      <linearGradient id="premiumGold" x1="0%" y1="100%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#A88E64" />
+        <stop offset="50%" stop-color="#D7C39C" />
+        <stop offset="100%" stop-color="#F4E6C8" />
+      </linearGradient>
+    </defs>
+    
+    <!-- ================= BARIS 1 (ATAS) ================= -->
+    
+    <!-- KOLOM 1: IKON TANGGA LAGU (Kotak Ukuran 80x50) -->
+    <g transform="translate(0, 0)">
+      <rect x="10" y="32" width="14" height="18" rx="2" fill="url(#premiumGold)" opacity="0.4"/>
+      <rect x="33" y="18" width="14" height="32" rx="2" fill="url(#premiumGold)" opacity="0.7"/>
+      <rect x="56" y="4" width="14" height="46" rx="2" fill="url(#premiumGold)"/>
+    </g>
+    
+    <!-- KOLOM 2: HURUF U (Kotak Ukuran 80x50) -->
+    <g transform="translate(90, 0)">
+      <path d="M 0 0 L 0 50 L 80 50 L 80 0 L 64 0 L 64 36 L 16 36 L 16 0 Z" fill="url(#premiumGold)"/>
+    </g>
+    
+    
+    <!-- ================= BARIS 2 (TENGAH) ================= -->
+    
+    <!-- KOLOM 1: HURUF T (Kotak Ukuran 80x50) -->
+    <g transform="translate(0, 60)">
+      <path d="M 0 0 L 80 0 L 80 14 L 48 14 L 48 50 L 32 50 L 32 14 L 0 14 Z" fill="url(#premiumGold)"/>
+    </g>
+    
+    <!-- KOLOM 2: HURUF A (Kotak Ukuran 80x50) -->
+    <g transform="translate(90, 60)">
+      <path d="M 0 0 L 80 0 L 80 50 L 64 50 L 64 34 L 16 34 L 16 50 L 0 50 Z M 16 14 L 16 22 L 64 22 L 64 14 Z" fill="url(#premiumGold)" fill-rule="evenodd"/>
+    </g>
+    
+    
+    <!-- ================= BARIS 3 (BAWAH) ================= -->
+    
+    <!-- KOLOM 1: HURUF M (Kotak Ukuran 80x50) -->
+    <g transform="translate(0, 120)">
+      <path d="M 0 0 L 0 50 L 16 50 L 16 22 L 32 36 L 48 36 L 64 22 L 64 50 L 80 50 L 80 0 L 58 0 L 40 18 L 22 0 Z" fill="url(#premiumGold)"/>
+    </g>
+    
+    <!-- KOLOM 2: HURUF A KEDUA (Kotak Ukuran 80x50) -->
+    <g transform="translate(90, 120)">
+      <path d="M 0 0 L 80 0 L 80 50 L 64 50 L 64 34 L 16 34 L 16 50 L 0 50 Z M 16 14 L 16 22 L 64 22 L 64 14 Z" fill="url(#premiumGold)" fill-rule="evenodd"/>
+    </g>
+    
+  </g>
+</svg>

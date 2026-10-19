@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#d7fb5d"/><text x="32" y="41" text-anchor="middle" fill="#101012" font-family="Georgia,serif" font-size="27" font-style="italic" font-weight="700">eL</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A88E64" />
+      <stop offset="50%" stop-color="#D7C39C" />
+      <stop offset="100%" stop-color="#F4E6C8" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#gold)"/>
+  <g transform="translate(32, 32) scale(0.65)">
+    <path d="M-16 -18 L-16 18 L16 18 L16 0 L8 0 L8 -12 L-8 -12 L-8 0 L-16 0 Z" fill="#101012"/>
+    <path d="M-16 0 L16 0 L16 14 L8 14 L8 -2 L-8 -2 L-8 14 L-16 14 Z" fill="#101012"/>
+    <path d="M-16 -18 L-16 18 L-2 18 L-2 0 L-10 0 L-10 -6 L-2 -6 L-2 -18 Z" fill="#101012"/>
+    <path d="M2 -18 L2 18 L16 18 L16 0 L10 0 L10 -6 L2 -6 L2 -18 Z" fill="#101012"/>
+  </g>
+</svg>
