@@ -218,7 +218,21 @@ svg { display: block; }
 
 /* Hero */
 
-.hero { padding: 24px 0 16px; }
+.hero {
+  position: relative;
+  padding: 24px 0 16px;
+  overflow: hidden;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -20%;
+  background: 
+    radial-gradient(ellipse 120% 55% at 50% -12%, rgba(215, 195, 156, .08), transparent 62%);
+  background-attachment: fixed;
+  z-index: -1;
+  pointer-events: none;
+}
 
 .eyebrow {
   margin: 0 0 8px;
@@ -227,6 +241,7 @@ svg { display: block; }
   line-height: 1.4;
   font-weight: 650;
   letter-spacing: .06em;
+  will-change: transform;
 }
 
 h1 {
@@ -235,9 +250,20 @@ h1 {
   line-height: 1.06;
   letter-spacing: -.035em;
   font-weight: 700;
+  will-change: transform;
 }
 
 .hero-accent { color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero::before {
+    background-attachment: scroll;
+  }
+  .eyebrow,
+  h1 {
+    will-change: auto;
+  }
+}
 
 /* Catalog */
 

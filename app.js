@@ -247,3 +247,39 @@ window.language = language;
 window.platforms = platforms;
 window.renderCatalog = renderCatalog;
 window.updateLanguage = updateLanguage;
+
+// Hero parallax text drift
+(function() {
+  const hero = document.querySelector('.hero');
+  if (!hero) return;
+  
+  const eyebrow = hero.querySelector('.eyebrow');
+  const h1 = hero.querySelector('h1');
+  if (!eyebrow && !h1) return;
+  
+  let ticking = false;
+  
+  const onScroll = () => {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(() => {
+        const y = window.scrollY;
+        if (eyebrow) eyebrow.style.transform = `translateY(${y * 0.15}px)`;
+        if (h1) h1.style.transform = `translateY(${y * 0.1}px)`;
+        ticking = false;
+      });
+    }
+  };
+  
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting || e.intersectionRatio > 0) {
+        document.addEventListener('scroll', onScroll, { passive: true });
+      } else {
+        document.removeEventListener('scroll', onScroll);
+      }
+    });
+  }, { rootMargin: '200px' });
+  
+  obs.observe(document.querySelector('.hero'));
+})();
