@@ -1,5 +1,82 @@
 [
   {
+    "slug": "thank-you-for-the-softest-kind",
+    "title": "Thank You For The Softest Kind",
+    "released": "2026-10-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-10-18"
+  },
+  {
+    "slug": "youre-not-my-home",
+    "title": "You're not my home",
+    "released": "2026-10-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-10-18"
+  },
+  {
+    "slug": "twin-flames",
+    "title": "Twin Flames",
+    "released": "2026-10-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-10-18"
+  },
+  {
+    "slug": "tell-me-its-over",
+    "title": "Tell Me It's Over",
+    "released": "2026-10-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-10-18"
+  },
+  {
+    "slug": "love-u-coz-i-need-to",
+    "title": "love u coz I need to",
+    "released": "2026-10-15",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-10-15"
+  },
+  {
+    "slug": "my-best-enemy",
+    "title": "My Best Enemy",
+    "released": "2026-10-14",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-10-14"
+  },
+  {
+    "slug": "i-am-no-savior-i-hide-as-well",
+    "title": "I Am No Savior, I Hide as Well",
+    "released": "2026-10-14",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-10-14"
+  },
+  {
     "slug": "bukan-teman-bukan-musuh",
     "title": "Bukan Teman Bukan Musuh",
     "released": "2026-09-30",
@@ -7,7 +84,8 @@
     "youtube": "https://music.youtube.com/watch?v=6KXg-GMui04",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0262ae71631df7c33b9554c9d5",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/bukan-teman-bukan-musuh/6820894620?i=6820894622"
+    "apple": "https://music.apple.com/us/album/bukan-teman-bukan-musuh/6820894620?i=6820894622",
+    "release_date": "2026-09-01"
   },
   {
     "slug": "cinta-dewasa",
@@ -17,7 +95,8 @@
     "youtube": "https://music.youtube.com/watch?v=CjrdiCs2cD4",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0262ae71631df7c33b9554c9d5",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/cinta-dewasa/6820894620?i=6820894629"
+    "apple": "https://music.apple.com/us/album/cinta-dewasa/6820894620?i=6820894629",
+    "release_date": "2026-09-01"
   },
   {
     "slug": "fokus-untuk-kita",
@@ -27,7 +106,8 @@
     "youtube": "https://music.youtube.com/watch?v=ZlLFZV3IRPU",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0262ae71631df7c33b9554c9d5",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/fokus-untuk-kita/6820894620?i=6820894906"
+    "apple": "https://music.apple.com/us/album/fokus-untuk-kita/6820894620?i=6820894906",
+    "release_date": "2026-09-01"
   },
   {
     "slug": "jangan-dekatkan-hatiku",
@@ -37,7 +117,8 @@
     "youtube": "https://music.youtube.com/watch?v=X1RPaLll6Go",
     "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0262ae71631df7c33b9554c9d5",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/jangan-dekatkan-hatiku/6820894620?i=6820894907"
+    "apple": "https://music.apple.com/us/album/jangan-dekatkan-hatiku/6820894620?i=6820894907",
+    "release_date": "2026-09-01"
   },
   {
     "slug": "menjaga-sisa-sunyi",
@@ -47,7 +128,8 @@
     "youtube": "https://music.youtube.com/watch?v=r2N1HOcatL4",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0262ae71631df7c33b9554c9d5",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/menjaga-sisa-sunyi/6820894620?i=6820894909"
+    "apple": "https://music.apple.com/us/album/menjaga-sisa-sunyi/6820894620?i=6820894909",
+    "release_date": "2026-09-30"
   },
   {
     "slug": "tahu-batas",
@@ -57,7 +139,19 @@
     "youtube": "https://music.youtube.com/watch?v=mfrID3qxMMQ",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0262ae71631df7c33b9554c9d5",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/tahu-batas/6820894620?i=6820894914"
+    "apple": "https://music.apple.com/us/album/tahu-batas/6820894620?i=6820894914",
+    "release_date": "2026-09-01"
+  },
+  {
+    "slug": "macha",
+    "title": "Macha",
+    "released": "2026-09-29",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-09-29"
   },
   {
     "slug": "tiga-hari-diam",
@@ -67,7 +161,8 @@
     "youtube": "https://music.youtube.com/watch?v=5T2mBmpyIb8",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c1fcdf68e4169e50e8407bc2",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/tiga-hari-diam/6814850029?i=6814850034"
+    "apple": "https://music.apple.com/us/album/tiga-hari-diam/6814850029?i=6814850034",
+    "release_date": "2026-09-25"
   },
   {
     "slug": "three-days-silent",
@@ -77,7 +172,8 @@
     "youtube": "https://music.youtube.com/watch?v=8PfDat8yTZw",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e1afdd74f5ab9cd812d25f42",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/three-days-silent/6814202793?i=6814202795"
+    "apple": "https://music.apple.com/us/album/three-days-silent/6814202793?i=6814202795",
+    "release_date": "2026-09-22"
   },
   {
     "slug": "janji-paling-kuat",
@@ -87,7 +183,8 @@
     "youtube": "https://music.youtube.com/watch?v=1s5Q01Wtbho",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025633a52a17f8d212a3ad6447",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/janji-paling-kuat/6814129020?i=6814129024"
+    "apple": "https://music.apple.com/us/album/janji-paling-kuat/6814129020?i=6814129024",
+    "release_date": "2026-09-22"
   },
   {
     "slug": "idle-resources",
@@ -97,7 +194,8 @@
     "youtube": "https://music.youtube.com/watch?v=Gvqtekmbw4g",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027cd436b50175aa62d4724b91",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/idle-resources/6814120358?i=6814120361"
+    "apple": "https://music.apple.com/us/album/idle-resources/6814120358?i=6814120361",
+    "release_date": "2026-09-22"
   },
   {
     "slug": "calculated-warmth",
@@ -107,7 +205,8 @@
     "youtube": "https://music.youtube.com/watch?v=1l6IwI7BitE",
     "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b605d10957f2074a7bb9ad1b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/calculated-warmth/6812002934?i=6812002946"
+    "apple": "https://music.apple.com/us/album/calculated-warmth/6812002934?i=6812002946",
+    "release_date": "2026-09-21"
   },
   {
     "slug": "quiet-devotion",
@@ -117,7 +216,8 @@
     "youtube": "https://music.youtube.com/watch?v=jYmp-gq1UUU",
     "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a028e1c36e222690194b43a4",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/quiet-devotion/6811967714?i=6811967715"
+    "apple": "https://music.apple.com/us/album/quiet-devotion/6811967714?i=6811967715",
+    "release_date": "2026-09-21"
   },
   {
     "slug": "equal-exchange",
@@ -127,7 +227,8 @@
     "youtube": "https://music.youtube.com/watch?v=oHB5fmWXJtc",
     "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b605d10957f2074a7bb9ad1b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/equal-exchange/6812002934?i=6812002936"
+    "apple": "https://music.apple.com/us/album/equal-exchange/6812002934?i=6812002936",
+    "release_date": "2026-09-21"
   },
   {
     "slug": "part-ner",
@@ -137,7 +238,8 @@
     "youtube": "https://music.youtube.com/watch?v=L8vSQ4_auzc",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b605d10957f2074a7bb9ad1b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/part-ner/6812002934?i=6812002939"
+    "apple": "https://music.apple.com/us/album/part-ner/6812002934?i=6812002939",
+    "release_date": "2026-09-21"
   },
   {
     "slug": "no-credit-cash-only",
@@ -147,7 +249,8 @@
     "youtube": "https://music.youtube.com/watch?v=Cgx0p4VppU4",
     "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b605d10957f2074a7bb9ad1b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/no-credit-cash-only/6812002934?i=6812002940"
+    "apple": "https://music.apple.com/us/album/no-credit-cash-only/6812002934?i=6812002940",
+    "release_date": "2026-09-21"
   },
   {
     "slug": "glass-mirror",
@@ -157,7 +260,8 @@
     "youtube": "https://music.youtube.com/watch?v=tXU4s_BIFDw",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b605d10957f2074a7bb9ad1b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/glass-mirror/6812002934?i=6812002941"
+    "apple": "https://music.apple.com/us/album/glass-mirror/6812002934?i=6812002941",
+    "release_date": "2026-09-21"
   },
   {
     "slug": "two-sets-of-hands",
@@ -167,7 +271,8 @@
     "youtube": "https://music.youtube.com/watch?v=8C2UycTq7os",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b605d10957f2074a7bb9ad1b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/two-sets-of-hands/6812002934?i=6812002948"
+    "apple": "https://music.apple.com/us/album/two-sets-of-hands/6812002934?i=6812002948",
+    "release_date": "2026-09-21"
   },
   {
     "slug": "stranger",
@@ -177,7 +282,8 @@
     "youtube": "https://music.youtube.com/watch?v=hJVVNH-0RN8",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d23bc97a52c0635dc8ad19e8",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/stranger/6813611142?i=6813611449"
+    "apple": "https://music.apple.com/us/album/stranger/6813611142?i=6813611449",
+    "release_date": "2026-09-19"
   },
   {
     "slug": "burn-too-fast",
@@ -187,7 +293,8 @@
     "youtube": "https://music.youtube.com/watch?v=08SL6cn6G6w",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b6505af798830c3e48b12d73",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/burn-too-fast/6810760435?i=6810760437"
+    "apple": "https://music.apple.com/us/album/burn-too-fast/6810760435?i=6810760437",
+    "release_date": "2026-09-19"
   },
   {
     "slug": "jakarta-jogja",
@@ -197,7 +304,8 @@
     "youtube": "https://music.youtube.com/watch?v=kgtjnSLUOSQ",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b2148882d3d62385349babc4",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/jakarta-jogja/6810744594?i=6810744595"
+    "apple": "https://music.apple.com/us/album/jakarta-jogja/6810744594?i=6810744595",
+    "release_date": "2026-09-19"
   },
   {
     "slug": "jeda",
@@ -207,7 +315,8 @@
     "youtube": null,
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02037baa971b365b9772abae3b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/jeda/6813887815?i=6813887817"
+    "apple": "https://music.apple.com/us/album/jeda/6813887815?i=6813887817",
+    "release_date": "2026-09-18"
   },
   {
     "slug": "11-00-pm",
@@ -217,7 +326,8 @@
     "youtube": null,
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02037baa971b365b9772abae3b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/11-00-pm/6813887815?i=6813888127"
+    "apple": "https://music.apple.com/us/album/11-00-pm/6813887815?i=6813888127",
+    "release_date": "2026-09-18"
   },
   {
     "slug": "tukang-kayu",
@@ -227,7 +337,8 @@
     "youtube": null,
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02037baa971b365b9772abae3b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/tukang-kayu/6813887815?i=6813888133"
+    "apple": "https://music.apple.com/us/album/tukang-kayu/6813887815?i=6813888133",
+    "release_date": "2026-09-18"
   },
   {
     "slug": "carrying-out-a-duty-pikulan",
@@ -237,7 +348,63 @@
     "youtube": null,
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02037baa971b365b9772abae3b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/carrying-out-a-duty-pikulan/6813887815?i=6813888134"
+    "apple": "https://music.apple.com/us/album/carrying-out-a-duty-pikulan/6813887815?i=6813888134",
+    "release_date": "2026-09-18"
+  },
+  {
+    "slug": "flexing-pamer",
+    "title": "Flexing (Pamer)",
+    "released": "2026-09-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-09-18"
+  },
+  {
+    "slug": "sisa-waktu",
+    "title": "Sisa Waktu",
+    "released": "2026-09-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-09-18"
+  },
+  {
+    "slug": "invoices-tagihan",
+    "title": "Invoices (Tagihan)",
+    "released": "2026-09-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-09-18"
+  },
+  {
+    "slug": "purpose",
+    "title": "Purpose",
+    "released": "2026-09-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-09-18"
+  },
+  {
+    "slug": "0600-am",
+    "title": "06:00 AM",
+    "released": "2026-09-18",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-09-18"
   },
   {
     "slug": "broke-my-focus",
@@ -256,7 +423,8 @@
     "youtube": "https://music.youtube.com/watch?v=fql4gidcYIM",
     "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026287be980bf88ef7bf5afc44",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/tergantung-kacamata/6808137210?i=6808137221"
+    "apple": "https://music.apple.com/us/album/tergantung-kacamata/6808137210?i=6808137221",
+    "release_date": "2026-09-12"
   },
   {
     "slug": "map-s-pins",
@@ -266,7 +434,8 @@
     "youtube": "https://music.youtube.com/watch?v=-Ogo6WcZ_ss",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fffeaca7813bfcdae77a396d",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/maps-pins/6807635131?i=6807635134"
+    "apple": "https://music.apple.com/us/album/maps-pins/6807635131?i=6807635134",
+    "release_date": "2026-09-05"
   },
   {
     "slug": "cold-for-me",
@@ -276,7 +445,8 @@
     "youtube": "https://music.youtube.com/watch?v=KkU1CX3R_k0",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e026aef378b8791f9a80b11b2a0",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/cold-for-me/6807620901?i=6807620904"
+    "apple": "https://music.apple.com/us/album/cold-for-me/6807620901?i=6807620904",
+    "release_date": "2026-09-04"
   },
   {
     "slug": "nothing-more-important-than-sleep",
@@ -287,7 +457,8 @@
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bd8255f1b58e5deea176a0a0",
     "kind": "song",
     "apple": "https://music.apple.com/us/album/nothing-more-important-than-sleep/6806795242?i=6806795243",
-    "qobuz": "https://www.qobuz.com/us-en/album/nothing-more-important-than-sleep-el-utama/jvfrak66xgdbz"
+    "qobuz": "https://www.qobuz.com/us-en/album/nothing-more-important-than-sleep-el-utama/jvfrak66xgdbz",
+    "release_date": "2026-09-03"
   },
   {
     "slug": "ojo-goblog",
@@ -297,7 +468,8 @@
     "youtube": "https://music.youtube.com/watch?v=_yjC8O_NkUM",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0225f1db8ef37fc5bb4eb78e56",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/ojo-goblog/6806781224?i=6806781225"
+    "apple": "https://music.apple.com/us/album/ojo-goblog/6806781224?i=6806781225",
+    "release_date": "2026-09-03"
   },
   {
     "slug": "look-for-more",
@@ -307,7 +479,19 @@
     "youtube": "https://music.youtube.com/watch?v=Ze_RJ4jnUJ8",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e2bca537f5f670b705ce917a",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/look-for-more/6806775654?i=6806775655"
+    "apple": "https://music.apple.com/us/album/look-for-more/6806775654?i=6806775655",
+    "release_date": "2026-09-02"
+  },
+  {
+    "slug": "malam-ini-sunyi",
+    "title": "Malam Ini Sunyi",
+    "released": "2026-09-01",
+    "spotify": "",
+    "youtube": "",
+    "apple": "",
+    "cover": "",
+    "kind": "song",
+    "release_date": "2026-09-01"
   },
   {
     "slug": "refugee-of-love",
@@ -317,7 +501,8 @@
     "youtube": "https://music.youtube.com/watch?v=QDAq5nxr5zU",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028dcc7c963f9a1401e1f2512d",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/refugee-of-love/6806157589?i=6806157774"
+    "apple": "https://music.apple.com/us/album/refugee-of-love/6806157589?i=6806157774",
+    "release_date": "2026-08-30"
   },
   {
     "slug": "half-of-soul",
@@ -327,7 +512,8 @@
     "youtube": "https://music.youtube.com/watch?v=QCTAtRfdNPU",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c425038e65f784d9b2541899",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/half-of-soul/6805900305?i=6805900375"
+    "apple": "https://music.apple.com/us/album/half-of-soul/6805900305?i=6805900375",
+    "release_date": "2026-08-30"
   },
   {
     "slug": "flaws",
@@ -337,7 +523,8 @@
     "youtube": "https://music.youtube.com/watch?v=NvtmTwf0aUg",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c11a565601bf8ecc1f1165c2",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/flaws/6805795148?i=6805795421"
+    "apple": "https://music.apple.com/us/album/flaws/6805795148?i=6805795421",
+    "release_date": "2026-08-29"
   },
   {
     "slug": "steady-ache",
@@ -347,7 +534,8 @@
     "youtube": "https://music.youtube.com/watch?v=TYvKU0hPxHM",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025bc67822fa999097b6ff269f",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/steady-ache/6804907155?i=6804907156"
+    "apple": "https://music.apple.com/us/album/steady-ache/6804907155?i=6804907156",
+    "release_date": "2026-08-27"
   },
   {
     "slug": "santai-wae",
@@ -357,7 +545,8 @@
     "youtube": "https://music.youtube.com/watch?v=eLDgswTNPO0",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02e5b0450224b01ad7aca4256a",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/santai-wae/6804698259?i=6804698263"
+    "apple": "https://music.apple.com/us/album/santai-wae/6804698259?i=6804698263",
+    "release_date": "2026-08-27"
   },
   {
     "slug": "ngalir",
@@ -367,7 +556,8 @@
     "youtube": "https://music.youtube.com/watch?v=AhOm51Ia3Sk",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0287e7a0489421052a43844da3",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/ngalir/6804700610?i=6804700615"
+    "apple": "https://music.apple.com/us/album/ngalir/6804700610?i=6804700615",
+    "release_date": "2026-08-27"
   },
   {
     "slug": "50-45-5",
@@ -377,7 +567,8 @@
     "youtube": "https://music.youtube.com/watch?v=EVTYVTQ4lH0",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c58fc8cc21f2b1227664687c",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/50-45-5/6804907186?i=6804907191"
+    "apple": "https://music.apple.com/us/album/50-45-5/6804907186?i=6804907191",
+    "release_date": "2026-08-27"
   },
   {
     "slug": "room-for-your-storm",
@@ -387,7 +578,8 @@
     "youtube": "https://music.youtube.com/watch?v=hbBuT8ow-l8",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029d9853992596533df9a476d7",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/room-for-your-storm/6804606155?i=6804606157"
+    "apple": "https://music.apple.com/us/album/room-for-your-storm/6804606155?i=6804606157",
+    "release_date": "2026-08-26"
   },
   {
     "slug": "echo",
@@ -397,7 +589,8 @@
     "youtube": "https://music.youtube.com/watch?v=O3cuHNvyrrs",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0281961d2662b4bfef813b7bea",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/echo/6803582313?i=6803582316"
+    "apple": "https://music.apple.com/us/album/echo/6803582313?i=6803582316",
+    "release_date": "2026-08-23"
   },
   {
     "slug": "hollow-grace",
@@ -407,7 +600,8 @@
     "youtube": "https://music.youtube.com/watch?v=uaxm8D9L7Js",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02dcea670d636a539b68fe167b",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/hollow-grace/6803347677?i=6803347680"
+    "apple": "https://music.apple.com/us/album/hollow-grace/6803347677?i=6803347680",
+    "release_date": "2026-08-22"
   },
   {
     "slug": "cozy-in-my-agony",
@@ -417,7 +611,8 @@
     "youtube": "https://music.youtube.com/watch?v=XcHxnfPtnS0",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0244f645dd7715df18e436ea24",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/cozy-in-my-agony/6803176094?i=6803176580"
+    "apple": "https://music.apple.com/us/album/cozy-in-my-agony/6803176094?i=6803176580",
+    "release_date": "2026-08-22"
   },
   {
     "slug": "noise-in-the-dark",
@@ -427,7 +622,8 @@
     "youtube": "https://music.youtube.com/watch?v=x7uehMAhQ2M",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02eca674600ccdad7b7cb813c7",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/noise-in-the-dark/6803014841?i=6803014854"
+    "apple": "https://music.apple.com/us/album/noise-in-the-dark/6803014841?i=6803014854",
+    "release_date": "2026-08-21"
   },
   {
     "slug": "ustadz-or",
@@ -437,7 +633,8 @@
     "youtube": "https://music.youtube.com/watch?v=UoiN66RUj-g",
     "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021408c1c63fe4d3648b9d1944",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/ustadz-or/6801442807?i=6801442809"
+    "apple": "https://music.apple.com/us/album/ustadz-or/6801442807?i=6801442809",
+    "release_date": "2026-08-16"
   },
   {
     "slug": "cinta-ini-nyata",
@@ -447,7 +644,8 @@
     "youtube": "https://music.youtube.com/watch?v=i_aiqoT7DzY",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020b24273ebe3935dc34259194",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/cinta-ini-nyata/6802264547?i=6802264553"
+    "apple": "https://music.apple.com/us/album/cinta-ini-nyata/6802264547?i=6802264553",
+    "release_date": "2026-08-15"
   },
   {
     "slug": "you-walked-away",
@@ -457,7 +655,8 @@
     "youtube": "https://music.youtube.com/watch?v=t2xZFn7da2U",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c70c2e072b398e878b5087a4",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/you-walked-away/6801463072?i=6801463076"
+    "apple": "https://music.apple.com/us/album/you-walked-away/6801463072?i=6801463076",
+    "release_date": "2026-08-15"
   },
   {
     "slug": "wayahe",
@@ -467,7 +666,8 @@
     "youtube": "https://music.youtube.com/watch?v=J_5fUoJ2jCw",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0255a415233206586acdf2b9de",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/wayahe/6801959268?i=6801959269"
+    "apple": "https://music.apple.com/us/album/wayahe/6801959268?i=6801959269",
+    "release_date": "2026-08-14"
   },
   {
     "slug": "kamu-tantrum",
@@ -477,7 +677,8 @@
     "youtube": "https://music.youtube.com/watch?v=2UOF-YfgKZU",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e021891b864912617d023248921",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/kamu-tantrum/6800308387?i=6800308388"
+    "apple": "https://music.apple.com/us/album/kamu-tantrum/6800308387?i=6800308388",
+    "release_date": "2026-08-13"
   },
   {
     "slug": "temen-jalan",
@@ -487,7 +688,8 @@
     "youtube": "https://music.youtube.com/watch?v=MgiwxqPc3w0",
     "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025702e42fafb79e69484b239c",
     "kind": "song",
-    "apple": "https://music.apple.com/us/album/temen-jalan/6799968227?i=6799968336"
+    "apple": "https://music.apple.com/us/album/temen-jalan/6799968227?i=6799968336",
+    "release_date": "2026-08-11"
   },
   {
     "slug": "stay-smart-listen-to-ojo-goblog-music-indonesia-rap",
