@@ -1,82 +1,5 @@
 [
   {
-    "slug": "thank-you-for-the-softest-kind",
-    "title": "Thank You For The Softest Kind",
-    "released": "2026-10-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-10-18"
-  },
-  {
-    "slug": "youre-not-my-home",
-    "title": "You're not my home",
-    "released": "2026-10-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-10-18"
-  },
-  {
-    "slug": "twin-flames",
-    "title": "Twin Flames",
-    "released": "2026-10-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-10-18"
-  },
-  {
-    "slug": "tell-me-its-over",
-    "title": "Tell Me It's Over",
-    "released": "2026-10-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-10-18"
-  },
-  {
-    "slug": "love-u-coz-i-need-to",
-    "title": "love u coz I need to",
-    "released": "2026-10-15",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-10-15"
-  },
-  {
-    "slug": "my-best-enemy",
-    "title": "My Best Enemy",
-    "released": "2026-10-14",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-10-14"
-  },
-  {
-    "slug": "i-am-no-savior-i-hide-as-well",
-    "title": "I Am No Savior, I Hide as Well",
-    "released": "2026-10-14",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-10-14"
-  },
-  {
     "slug": "bukan-teman-bukan-musuh",
     "title": "Bukan Teman Bukan Musuh",
     "released": "2026-09-30",
@@ -141,17 +64,6 @@
     "kind": "song",
     "apple": "https://music.apple.com/us/album/tahu-batas/6820894620?i=6820894914",
     "release_date": "2026-09-01"
-  },
-  {
-    "slug": "macha",
-    "title": "Macha",
-    "released": "2026-09-29",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-09-29"
   },
   {
     "slug": "tiga-hari-diam",
@@ -308,114 +220,6 @@
     "release_date": "2026-09-19"
   },
   {
-    "slug": "jeda",
-    "title": "Jeda",
-    "released": "2026-09-18",
-    "spotify": "https://open.spotify.com/track/0ZoJpA7IjrUnVXpDd6lC19",
-    "youtube": null,
-    "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02037baa971b365b9772abae3b",
-    "kind": "song",
-    "apple": "https://music.apple.com/us/album/jeda/6813887815?i=6813887817",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "11-00-pm",
-    "title": "11:00 PM",
-    "released": "2026-09-18",
-    "spotify": "https://open.spotify.com/track/28vu4l7Br1qyBBVyPrHQEL",
-    "youtube": null,
-    "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02037baa971b365b9772abae3b",
-    "kind": "song",
-    "apple": "https://music.apple.com/us/album/11-00-pm/6813887815?i=6813888127",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "tukang-kayu",
-    "title": "Tukang Kayu",
-    "released": "2026-09-18",
-    "spotify": "https://open.spotify.com/track/4Yx8j1uHLWtAVdQ47ThUfg",
-    "youtube": null,
-    "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02037baa971b365b9772abae3b",
-    "kind": "song",
-    "apple": "https://music.apple.com/us/album/tukang-kayu/6813887815?i=6813888133",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "carrying-out-a-duty-pikulan",
-    "title": "Carrying out a Duty (Pikulan)",
-    "released": "2026-09-18",
-    "spotify": "https://open.spotify.com/track/5yh0SIMfLxynfqrQIfOPig",
-    "youtube": null,
-    "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02037baa971b365b9772abae3b",
-    "kind": "song",
-    "apple": "https://music.apple.com/us/album/carrying-out-a-duty-pikulan/6813887815?i=6813888134",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "flexing-pamer",
-    "title": "Flexing (Pamer)",
-    "released": "2026-09-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "sisa-waktu",
-    "title": "Sisa Waktu",
-    "released": "2026-09-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "invoices-tagihan",
-    "title": "Invoices (Tagihan)",
-    "released": "2026-09-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "purpose",
-    "title": "Purpose",
-    "released": "2026-09-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "0600-am",
-    "title": "06:00 AM",
-    "released": "2026-09-18",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-09-18"
-  },
-  {
-    "slug": "broke-my-focus",
-    "title": "Broke My Focus",
-    "released": "2026-09-15",
-    "spotify": "https://open.spotify.com/track/5Pdo1VmeD5XLu9uTAGTL6F",
-    "youtube": null,
-    "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cb302e6094439b79a2a44992",
-    "kind": "song"
-  },
-  {
     "slug": "tergantung-kacamata",
     "title": "tergantung kacamata",
     "released": "2026-09-12",
@@ -481,17 +285,6 @@
     "kind": "song",
     "apple": "https://music.apple.com/us/album/look-for-more/6806775654?i=6806775655",
     "release_date": "2026-09-02"
-  },
-  {
-    "slug": "malam-ini-sunyi",
-    "title": "Malam Ini Sunyi",
-    "released": "2026-09-01",
-    "spotify": "",
-    "youtube": "",
-    "apple": "",
-    "cover": "",
-    "kind": "song",
-    "release_date": "2026-09-01"
   },
   {
     "slug": "refugee-of-love",
@@ -690,23 +483,5 @@
     "kind": "song",
     "apple": "https://music.apple.com/us/album/temen-jalan/6799968227?i=6799968336",
     "release_date": "2026-08-11"
-  },
-  {
-    "slug": "stay-smart-listen-to-ojo-goblog-music-indonesia-rap",
-    "title": "Stay smart, listen to Ojo Goblog 🎶🔥 #music #indonesia #rap",
-    "released": null,
-    "spotify": null,
-    "youtube": null,
-    "cover": "https://i.ytimg.com/vi/-EPGkrh85Fo/hqdefault.jpg",
-    "kind": "video"
-  },
-  {
-    "slug": "buat-yang-suka-tantrum",
-    "title": "buat yang suka tantrum",
-    "released": null,
-    "spotify": null,
-    "youtube": null,
-    "cover": "https://i.ytimg.com/vi/Ue0WHRSORNU/hqdefault.jpg",
-    "kind": "video"
   }
 ]
