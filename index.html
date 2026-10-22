@@ -627,7 +627,33 @@ h2 {
   color: #c9c6c5;
   transition: color .15s ease, border-color .15s ease, background .15s ease, transform .15s ease;
 }
-.social-link .icon { width: 19px; height: 19px; }
+.social-link .icon,
+.social-link .brand-icon {
+  width: 19px;
+  height: 19px;
+}
+.social-link .brand-icon {
+  display: block;
+  background-color: currentColor;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+.social-link[data-platform="amazonmusic"] .brand-icon {
+  -webkit-mask-image: url("./assets/amazonmusic.svg");
+  mask-image: url("./assets/amazonmusic.svg");
+}
+.social-link[data-platform="deezer"] .brand-icon {
+  -webkit-mask-image: url("./assets/deezer.svg");
+  mask-image: url("./assets/deezer.svg");
+}
+.social-link[data-platform="tidal"] .brand-icon {
+  -webkit-mask-image: url("./assets/tidal.svg");
+  mask-image: url("./assets/tidal.svg");
+}
 .social-link:hover { transform: translateY(-1px); }
 
 .social-link[data-platform="instagram"]:hover,
@@ -642,6 +668,12 @@ h2 {
 .social-link[data-platform="audiomack"]:focus-visible { color: var(--audiomack); border-color: rgba(253, 75, 119, .4); }
 .social-link[data-platform="tiktok"]:hover,
 .social-link[data-platform="tiktok"]:focus-visible { color: var(--tiktok); border-color: rgba(37, 244, 238, .4); }
+.social-link[data-platform="amazonmusic"]:hover,
+.social-link[data-platform="amazonmusic"]:focus-visible { color: #25d1da; border-color: rgba(37, 209, 218, .4); }
+.social-link[data-platform="deezer"]:hover,
+.social-link[data-platform="deezer"]:focus-visible { color: #a238ff; border-color: rgba(162, 56, 255, .4); }
+.social-link[data-platform="tidal"]:hover,
+.social-link[data-platform="tidal"]:focus-visible { color: #00ffff; border-color: rgba(0, 255, 255, .4); }
 
 .social-link[data-platform="amazon"]:hover,
 .social-link[data-platform="amazon"]:focus-visible { color: var(--amazon); border-color: rgba(0, 168, 225, .4); }
@@ -755,6 +787,22 @@ h2 {
   .wrap { width: min(100% - 48px, var(--max)); }
   .header-inner { padding: 0; }
   .footer-inner { padding: 14px 0; }
+}
+
+@media (min-width: 640px) and (max-width: 839px) {
+  .follow-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .social-links {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 840px) {
+  .social-links { gap: 8px; }
 }
 
 @media (min-width: 820px) {
