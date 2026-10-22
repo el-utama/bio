@@ -96,9 +96,8 @@ function eligibleTracks(tracks) {
 }
 
 function coverMarkup(track) {
-  const cover = track.slug === "fokus-untuk-kita" ? "./assets/fokus-cover.jpg" : track.cover;
-  if (!cover) return `<span class="release-cover is-loaded" aria-hidden="true"></span>`;
-  return `<img class="release-cover" src="${escapeHtml(cover)}" alt="" width="52" height="52" loading="lazy" decoding="async">`;
+  if (!track.cover) return `<span class="release-cover is-loaded" aria-hidden="true"></span>`;
+  return `<img class="release-cover" src="./assets/el-utama_transparent.svg" alt="" width="70" height="70" loading="lazy" decoding="async">`;
 }
 
 function renderCard(track) {

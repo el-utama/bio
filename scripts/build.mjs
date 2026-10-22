@@ -36,10 +36,7 @@ function hasValidLinks(track) {
 }
 
 function renderCard(track) {
-  const cover = track.slug === "fokus-untuk-kita" ? "./assets/fokus-cover.jpg" : track.cover;
-  const coverMarkup = cover
-    ? `<img class="release-cover" src="${escapeHtml(cover)}" alt="" width="52" height="52" loading="lazy" decoding="async">`
-    : '<span class="release-cover is-loaded" aria-hidden="true"></span>';
+  const coverMarkup = `<img class="release-cover" src="./assets/el-utama_transparent.svg" alt="" width="70" height="70" loading="lazy" decoding="async">`;
   const links = platforms.map((platform) =>
     `<a class="platform-link" data-platform="${platform.key}" href="${escapeHtml(track[platform.key])}" target="_blank" rel="noopener noreferrer" aria-label="Dengarkan ${escapeHtml(track.title)} di ${platform.label}"><svg class="icon" aria-hidden="true" focusable="false"><use href="#${platform.symbol}"></use></svg></a>`,
   ).join("");
