@@ -4,11 +4,16 @@
   "description": "eL Utama official music links",
   "type": "module",
   "scripts": {
-    "build": "echo 'Static site - no build needed'",
-    "lint": "echo 'No linter configured'"
+    "build": "node scripts/build.mjs",
+    "lint": "echo 'No linter configured'",
+    "dev": "node scripts/build.mjs development && python3 -m http.server 8099 --directory dist"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^1.0.12"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
 }

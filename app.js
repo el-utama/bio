@@ -1,3 +1,7 @@
+import { inject } from "@vercel/analytics";
+
+inject();
+
 const list = document.querySelector("#release-list");
 const scrollArea = document.querySelector("#catalog-scroll");
 const scrollHint = document.querySelector("#scroll-hint");
