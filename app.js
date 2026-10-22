@@ -210,12 +210,14 @@ function configureLogo() {
 languageButtons.forEach((button) => button.addEventListener("click", () => updateLanguage(button.dataset.language)));
 
 search.addEventListener("input", () => {
+  if (!catalog.length) return;
   syncClearState();
   window.clearTimeout(searchTimer);
   searchTimer = window.setTimeout(renderCatalog, 120);
 });
 
 searchClear.addEventListener("click", () => {
+  if (!catalog.length) return;
   search.value = "";
   syncClearState();
   renderCatalog();
@@ -235,13 +237,14 @@ fetch("./catalog.json", { cache: "force-cache" })
   })
   .then((tracks) => {
     catalog = eligibleTracks(tracks);
+    search.disabled = false;
     renderCatalog();
   })
   .catch(() => {
-    list.innerHTML = `<p class="loading-state">${escapeHtml(translations[language].unavailable)}</p>`;
     list.setAttribute("aria-busy", "false");
     scrollHint.hidden = true;
-    count.textContent = "";
+    search.disabled = true;
+    searchClear.hidden = true;
   });
 
 // Expose for ES module / console debugging

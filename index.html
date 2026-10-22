@@ -8,8 +8,8 @@
   <link rel="canonical" href="https://el-utama-links.vercel.app/">
   <link rel="sitemap" href="/sitemap.xml">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
-  <link rel="preload" href="./styles.css?v=2" as="style">
-  <link rel="stylesheet" href="./styles.css?v=2">
+  <link rel="preload" href="./styles.css?v=3" as="style">
+  <link rel="stylesheet" href="./styles.css?v=3">
   <script>
     window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
   </script>
@@ -61,7 +61,10 @@
       "https://www.youtube.com/channel/UCTJM9lG-xCfTMdRNiBdECpA",
       "https://music.apple.com/us/artist/el-utama/6790476914",
       "https://audiomack.com/el-utama",
-      "https://www.tiktok.com/@itoy4u"
+      "https://www.tiktok.com/@itoy4u",
+      "https://music.amazon.com/artists/B0HDPQ9PGT",
+      "https://deezer.com/us/artist/409353682",
+      "https://listen.tidal.com/artist/84177789/"
     ]
   },
   {
@@ -253,22 +256,19 @@
           <p class="eyebrow section-eyebrow" data-i18n="catalog-kicker">Dengarkan</p>
           <h2 id="catalog-title" data-i18n="catalog-title">Lagu di semua platform</h2>
         </div>
-        <p class="catalog-count" id="catalog-count" aria-live="polite"></p>
+        <p class="catalog-count" id="catalog-count" aria-live="polite"><!-- CATALOG_COUNT --></p>
       </div>
       <div class="search-box" role="search">
         <label class="sr-only" for="catalog-search" data-i18n="search-label">Cari lagu</label>
         <svg class="icon search-icon" aria-hidden="true" focusable="false"><use href="#i-search"></use></svg>
-        <input id="catalog-search" type="search" data-i18n-placeholder="search-placeholder" placeholder="Cari lagu…" autocomplete="off" spellcheck="false">
+        <input id="catalog-search" type="search" data-i18n-placeholder="search-placeholder" placeholder="Cari lagu…" autocomplete="off" spellcheck="false" disabled>
         <button type="button" class="search-clear" id="search-clear" aria-label="Hapus pencarian" hidden>
           <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"></use></svg>
         </button>
       </div>
       <div class="catalog-scroll" id="catalog-scroll">
-        <div class="release-list" id="release-list" role="region" aria-label="Daftar lagu" aria-describedby="scroll-hint" tabindex="0" aria-busy="true">
-          <div class="skeleton-card" aria-hidden="true"><span class="sk-cover"></span><span class="sk-lines"><span class="sk-line"></span><span class="sk-line short"></span></span></div>
-          <div class="skeleton-card" aria-hidden="true"><span class="sk-cover"></span><span class="sk-lines"><span class="sk-line"></span><span class="sk-line short"></span></span></div>
-          <div class="skeleton-card" aria-hidden="true"><span class="sk-cover"></span><span class="sk-lines"><span class="sk-line"></span><span class="sk-line short"></span></span></div>
-          <p class="sr-only" data-i18n="loading">Memuat lagu…</p>
+        <div class="release-list" id="release-list" role="region" aria-label="Daftar lagu" aria-describedby="scroll-hint" tabindex="0" aria-busy="false">
+          <!-- CATALOG_ITEMS -->
         </div>
       </div>
       <p class="scroll-hint" id="scroll-hint" hidden>
@@ -291,6 +291,9 @@
         <a class="social-link" data-platform="apple" href="https://music.apple.com/us/artist/el-utama/6790476914" target="_blank" rel="noopener noreferrer" aria-label="Apple Music"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-applemusic"></use></svg></a>
         <a class="social-link" data-platform="audiomack" href="https://audiomack.com/el-utama" target="_blank" rel="noopener noreferrer" aria-label="Audiomack"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-audiomack"></use></svg></a>
         <a class="social-link" data-platform="tiktok" href="https://www.tiktok.com/@itoy4u" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-tiktok"></use></svg></a>
+        <a class="social-link" data-platform="amazonmusic" href="https://music.amazon.com/artists/B0HDPQ9PGT" target="_blank" rel="noopener noreferrer" aria-label="Amazon Music"><span class="brand-icon" aria-hidden="true"></span></a>
+        <a class="social-link" data-platform="deezer" href="https://deezer.com/us/artist/409353682" target="_blank" rel="noopener noreferrer" aria-label="Deezer"><span class="brand-icon" aria-hidden="true"></span></a>
+        <a class="social-link" data-platform="tidal" href="https://listen.tidal.com/artist/84177789/" target="_blank" rel="noopener noreferrer" aria-label="Tidal"><span class="brand-icon" aria-hidden="true"></span></a>
       </nav>
     </section>
   </main>
@@ -302,6 +305,6 @@
       <a class="back-top" href="#atas"><span data-i18n="back-top">Kembali ke atas</span><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"></use></svg></a>
     </div>
   </footer>
-  <noscript><p class="noscript-note">JavaScript is required to load the catalog.</p></noscript>
+  <noscript><p class="noscript-note">Semua tautan lagu tersedia di atas; pencarian memerlukan JavaScript.</p></noscript>
 </body>
 </html>
