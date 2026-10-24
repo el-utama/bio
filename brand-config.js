@@ -2,4 +2,5 @@
 // for example "./assets/artist-logo.svg". A GitHub raw image URL also works.
 window.EL_UTAMA_BRANDING = {
   logoUrl: "./assets/el-utama_transparent.svg",
+  spotifyArtistUrl: "https://open.spotify.com/artist/1JnABAdezw4hHakOvhIOyc",
 };

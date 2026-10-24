@@ -122,7 +122,22 @@ svg { display: block; }
   backdrop-filter: blur(14px);
 }
 
+.fireflies {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.site-header.is-playing .fireflies { opacity: 1; }
+.site-header.is-paused .fireflies { opacity: .16; }
+
 .header-inner {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -589,6 +604,192 @@ h2 {
   100% { background-position: 0 0; }
 }
 
+/* Spotify */
+
+.playlist-section { padding: 8px 0 12px; }
+
+.playlist-card {
+  position: relative;
+  display: grid;
+  /* 354px keeps the iframe's inner viewport at Spotify's full 352px layout. */
+  min-height: 354px;
+  padding: 24px 20px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(80% 120% at 50% -20%, rgba(30, 215, 96, .07), transparent 58%),
+    radial-gradient(60% 80% at 100% 100%, rgba(215, 195, 156, .05), transparent 60%),
+    var(--surface);
+  isolation: isolate;
+}
+.playlist-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 2;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(215, 195, 156, .55), transparent);
+  pointer-events: none;
+}
+
+.playlist-facade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.playlist-disc {
+  position: relative;
+  display: grid;
+  width: 88px;
+  height: 88px;
+  place-items: center;
+  margin-bottom: 2px;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  background:
+    repeating-radial-gradient(circle at 50% 50%, #18181c 0 1px, #101013 1px 4px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, .45), inset 0 0 0 6px rgba(255, 255, 255, .02);
+  color: var(--spotify);
+  transition: transform .6s cubic-bezier(.2, .7, .2, 1);
+}
+.playlist-disc::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(215, 195, 156, .3);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #2b2b31, #141417);
+  transform: translate(-50%, -50%);
+}
+.playlist-disc .icon {
+  position: relative;
+  z-index: 1;
+  width: 19px;
+  height: 19px;
+}
+.playlist-card:hover .playlist-disc { transform: rotate(14deg); }
+
+.playlist-meta {
+  margin: 4px 0 0;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: .06em;
+}
+
+.playlist-description {
+  max-width: 42ch;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.playlist-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin-top: 6px;
+}
+
+.playlist-play {
+  min-height: 44px;
+  padding: 0 20px;
+  border: 1px solid rgba(215, 195, 156, .38);
+  border-radius: 999px;
+  background: rgba(215, 195, 156, .07);
+  color: var(--gold-light);
+  font-size: 13px;
+  font-weight: 650;
+  cursor: pointer;
+  transition: color .18s ease, background .18s ease, border-color .18s ease, transform .18s ease;
+}
+.playlist-play:hover {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #101012;
+}
+.playlist-play:active { transform: translateY(1px); }
+.playlist-play:disabled { opacity: .68; cursor: progress; }
+
+.playlist-open {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 4px;
+  color: var(--muted);
+  font-size: 12px;
+  transition: color .15s ease;
+}
+.playlist-open::before {
+  content: "";
+  position: absolute;
+  inset: -8px -6px;
+}
+.playlist-open:hover,
+.playlist-open:focus-visible { color: var(--gold); }
+.playlist-open-icon {
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+}
+
+.playlist-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  padding: 0 2px;
+}
+.playlist-note {
+  margin: 0;
+  color: var(--meta);
+  font-size: 11px;
+  line-height: 1.4;
+}
+.playlist-close {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 0 4px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 11px;
+  cursor: pointer;
+  transition: color .15s ease;
+}
+.playlist-close:hover { color: var(--gold); }
+
+.playlist-embed {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  opacity: 0;
+  transition: opacity .15s ease;
+}
+.playlist-embed.is-ready { opacity: 1; }
+.playlist-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: inherit;
+  background: #121212;
+}
+
 /* Follow */
 
 .follow-section {
@@ -751,6 +952,9 @@ h2 {
 
   .catalog-section { padding-bottom: 30px; }
 
+  .playlist-section { padding-top: 10px; }
+  .playlist-card { padding: 28px 24px; }
+
   .release-card {
     grid-template-columns: 52px minmax(0, 1fr) auto;
     grid-template-areas: "cover info links";
@@ -846,6 +1050,7 @@ h2 {
     animation-iteration-count: 1 !important;
     transition-duration: .01ms !important;
   }
+  .playlist-card:hover .playlist-disc { transform: none; }
 }
 
   </style>
@@ -1071,6 +1276,7 @@ h2 {
   </svg>
 
   <header class="site-header">
+    <canvas class="fireflies" id="fireflies" aria-hidden="true"></canvas>
     <div class="wrap header-inner">
       <a class="wordmark" href="#atas">
         <img class="wordmark-logo" id="artist-logo" alt="Logo eL Utama" width="140" height="28" hidden>
@@ -1118,6 +1324,37 @@ h2 {
         <svg class="icon hint-icon" aria-hidden="true" focusable="false"><use href="#i-chevron-down"></use></svg>
       </p>
       <p class="empty-state" id="empty-state" aria-live="polite" hidden data-i18n="empty">Tidak ada lagu yang cocok.</p>
+    </section>
+
+    <section class="playlist-section wrap" id="playlist" aria-labelledby="playlist-title">
+      <div class="section-heading">
+        <div class="section-title-group">
+          <p class="eyebrow section-eyebrow" data-i18n="playlist-kicker">Spotify</p>
+          <h2 id="playlist-title" data-i18n="playlist-title">Dengarkan di Spotify</h2>
+        </div>
+        <p class="catalog-count" data-i18n="playlist-badge">Artist resmi</p>
+      </div>
+      <div class="playlist-card" id="spotify-card" aria-busy="false">
+        <div class="playlist-facade" id="spotify-facade">
+          <span class="playlist-disc" aria-hidden="true">
+            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-spotify"></use></svg>
+          </span>
+          <p class="playlist-meta" data-i18n="playlist-meta">Lagu populer · eL Utama</p>
+          <p class="playlist-description" data-i18n="playlist-description">Putar lagu populer eL Utama langsung di halaman ini, tanpa pindah tab.</p>
+          <div class="playlist-actions">
+            <button type="button" class="playlist-play" id="spotify-play" hidden data-i18n="playlist-play">Putar di sini</button>
+            <a class="playlist-open" id="spotify-open" href="https://open.spotify.com/artist/1JnABAdezw4hHakOvhIOyc" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="playlist-open">Buka di Spotify</span>
+              <svg class="icon playlist-open-icon" aria-hidden="true" focusable="false"><use href="#i-arrow-up"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="playlist-bar">
+        <p class="playlist-note" data-i18n="playlist-note">Pemutar dimuat dari Spotify saat kamu menekan putar.</p>
+        <button type="button" class="playlist-close" id="spotify-close" hidden data-i18n="playlist-close">Tutup pemutar</button>
+      </div>
+      <p class="sr-only" id="spotify-status" role="status" aria-live="polite"></p>
     </section>
 
     <section class="follow-section wrap" id="ikuti" aria-labelledby="follow-title">
